@@ -33,14 +33,12 @@ services:
     
     その後、＄docker-compose run --rm node sh -c 'npx create-react-app sample_app --template typescript'　
     
-    アプリケーションの起動・停止
-起動
-docker-compose up
-#停止
-docker-compose down
-起動後
-http://localhost:3000/
-にアクセスすると、Edit src/App.tsx and save to reload.の画面が表示されているはずです。
-ローカルのsrc/App.tsxを編集すると、即時反映されることも確認できます。
+アプリケーションの起動・停止
+起動 $docker-compose up
+
+停止 $docker-compose down
+
+起動後、http://localhost:3000/でプロジェクトの画面が表示される。
+src/App.tsxを編集すると、即時反映されることも確認できます。
 
 
